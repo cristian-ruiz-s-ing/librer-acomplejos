@@ -3,6 +3,9 @@ import math
 import libreriacomplejos
 
 def sumavector(m1,m2):
+    """
+    Esta función realiza...
+    """
     return suma_de_matrices(m1,m2)
 
 def resta_vector(m1,m2):
