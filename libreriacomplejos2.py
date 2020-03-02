@@ -180,7 +180,7 @@ def main():
     #print(distancia(v1,v2))
     #print(unitaria(p))
     #print(hermitiana(p))
-    print(tensor(m1,m2))
+    #print(tensor(m1,m2))
     
         
     
