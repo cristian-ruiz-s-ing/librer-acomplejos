@@ -114,9 +114,8 @@ def polar(c1):
     coord=(r,a)
     return coord
 
-'''def main():
-    opc=int(stdin.readline().strip())
-    if opc==1:
-        c1=tuple(stdin.readline().strip().split(','))
-        c2=tuple(stdin.readline().strip().split(','))
-        print(suma(c1,c2))'''
+def main():
+    v=[[(-1/math.sqrt(8),1/math.sqrt(8))],[(1/math.sqrt(8),-1/math.sqrt(8))],[(0,0)],[(0,1/math.sqrt(2))]]
+    #print(modulo(v[0][0]))
+
+main()
