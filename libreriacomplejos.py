@@ -101,7 +101,10 @@ def modulo(c1):
 
 def conj(c1):
     x=float(c1[0])
-    y=float(c1[1])*-1
+    if c1[1]!=0:
+        y=float(c1[1])*-1
+    else:
+        y=float(0)
     resp=(x,y)
     x=bonito(resp)
     return resp
